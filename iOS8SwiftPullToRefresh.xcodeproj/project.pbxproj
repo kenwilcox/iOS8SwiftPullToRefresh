@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BE92610B1A5A45EF00D66F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92610A1A5A45EF00D66F17 /* AppDelegate.swift */; };
-		BE92610D1A5A45EF00D66F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92610C1A5A45EF00D66F17 /* ViewController.swift */; };
 		BE9261101A5A45EF00D66F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE92610E1A5A45EF00D66F17 /* Main.storyboard */; };
 		BE9261121A5A45EF00D66F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9261111A5A45EF00D66F17 /* Images.xcassets */; };
 		BE9261151A5A45EF00D66F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9261131A5A45EF00D66F17 /* LaunchScreen.xib */; };
 		BE9261211A5A45EF00D66F17 /* iOS8SwiftPullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261201A5A45EF00D66F17 /* iOS8SwiftPullToRefreshTests.swift */; };
 		BE92612C1A5A46AF00D66F17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE92612A1A5A46AF00D66F17 /* LICENSE */; };
+		BE9261311A5A476A00D66F17 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9261301A5A476A00D66F17 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		BE9261051A5A45EF00D66F17 /* iOS8SwiftPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9261091A5A45EF00D66F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE92610A1A5A45EF00D66F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE92610C1A5A45EF00D66F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE92610F1A5A45EF00D66F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE9261111A5A45EF00D66F17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE9261141A5A45EF00D66F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		BE9261201A5A45EF00D66F17 /* iOS8SwiftPullToRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftPullToRefreshTests.swift; sourceTree = "<group>"; };
 		BE92612A1A5A46AF00D66F17 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE92612B1A5A46AF00D66F17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE9261301A5A476A00D66F17 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				BE92610A1A5A45EF00D66F17 /* AppDelegate.swift */,
-				BE92610C1A5A45EF00D66F17 /* ViewController.swift */,
+				BE9261301A5A476A00D66F17 /* TableViewController.swift */,
 				BE92610E1A5A45EF00D66F17 /* Main.storyboard */,
 				BE9261111A5A45EF00D66F17 /* Images.xcassets */,
 				BE9261131A5A45EF00D66F17 /* LaunchScreen.xib */,
@@ -218,8 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE92610D1A5A45EF00D66F17 /* ViewController.swift in Sources */,
 				BE92610B1A5A45EF00D66F17 /* AppDelegate.swift in Sources */,
+				BE9261311A5A476A00D66F17 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
