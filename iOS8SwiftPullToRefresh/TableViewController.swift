@@ -15,10 +15,7 @@ class TableViewController: UITableViewController {
   
   func sortArray() {
     var sortedAlphabet = alphabet.reverse()
-    
-    for (index, element) in enumerate(sortedAlphabet) {
-      alphabet[index] = element
-    }
+    alphabet = sortedAlphabet
     
     tableView.reloadData()
     refreshControl?.endRefreshing()
