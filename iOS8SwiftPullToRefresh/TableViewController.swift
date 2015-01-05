@@ -14,8 +14,7 @@ class TableViewController: UITableViewController {
   var isAscending = true
   
   func sortArray() {
-    var sortedAlphabet = alphabet.reverse()
-    alphabet = sortedAlphabet
+    var alphabet = alphabet.reverse()
     
     tableView.reloadData()
     refreshControl?.endRefreshing()
